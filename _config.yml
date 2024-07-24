@@ -89,14 +89,5 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "宿命·杨的Ai", href: "https://ai.ynez.us.kg" },
-    { title: "萤火虫", href: "https://yhcres.top" },
-    { title: "爱达杂货铺", href: "https://adzhp.site" },
-    { title: "423Down", href: "https://423down.com" },
-    { title: "Bigjpg", href: "https://bigjpg.com" },
-    { title: "Github", href: "https://github.com/NachoNeko1/" },
-    { title: "流水断崖", href: "https://lsdy.top/ },
-    { title: "cloudflare", href: "https://www.cloudflare.com/" },
-    { title: "cloudns", href: "https://cloudns.net" },
-    { title: "us.kg", href: "https://us.kg" },
+
   ]
