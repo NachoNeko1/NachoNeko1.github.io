@@ -1,0 +1,30 @@
+---
+layout:     post
+title:      "欢迎来到宿命·杨的博客网"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2024-07-24 19:30:00
+author:     "Fate"
+header-img: "img/post-bg-2024-7-24.jpg"
+catalog: true
+tags:
+    - Meta
+---
+
+> “Yeah It's on. ”
+
+
+宿命·杨的Blog就这么开通了
+
+作为一名学生，我或许没有做到学习上的尽力，不过在信息技术上付出了近五年的心血。Blog 这种轮子要是挂在大众博客程序上就太没意思了。一是觉得大部分 Blog 服务都太丑，二是觉得不能随便定制不好玩。之前因为太懒没有折腾，结果就一直连个写 Blog 的地儿都没有。
+
+在玩了一段时间知乎之后，答题的快感又激起了我开博客的冲动。之前的[个人Ai网站](https://ai.ynez.us.kg/web/)是一个作品 ，并不适合用来写博文，一不做二不休，花一天搞一个吧！
+
+
+
+<p id = "build"></p>
+
+本站于2024-7-23建成，于24日正式面向大众，本网站是基于[黄玄的Github](https://github.com/Huxpro/huxpro.github.io)开源的网站模板开发，过程非常简单。
+
+如果你也想开发的话这里是[教程](https://www.bilibili.com/video/BV12H4y1N7Q4/?spm_id_from=333.999.0.0&vd_source=ea308718431d6d5366a5a239d77fb8d6)
+
+就这样吧，再见。
