@@ -7,9 +7,7 @@ author:     "Fate"
 header-img: "img/post-2024-7-27.jpg"
 catalog: true
 tags:
-  - 科学上网
   - Meta
-  -cloudflare
 ---
 
 > 这篇文章转载自[v2rayss论坛](https://v2rayssr.com/worker-vless.html)没有加速就别点，一共有两种方法
