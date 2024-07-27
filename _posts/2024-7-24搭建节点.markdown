@@ -1,0 +1,54 @@
+---
+layout:     post
+title:      "搭建一条属于自己的节点"
+subtitle:   " \"用cloudflare的免费CDN进行部署VLESS节点\""
+date:       2024-07-27 11:09:00
+author:     "Fate"
+header-img: "img/post-2024-7-27.jpg"
+catalog: true
+tags:
+  - Meta
+---
+
+> 这篇文章转载自[v2rayss论坛](https://v2rayssr.com/worker-vless.html)没有加速就别点，一共有两种方法
+
+## 方法一：普通的节点，仅支持V2rayNG的连接
+
+### 一：普通的节点，仅支持V2rayNG的连接
+
+1.先去[cloudflare](https://www.cloudflare.com)上注册账号 
+
+![ ](https://github.com/NachoNeko1/NachoNeko1.github.io/blob/master/img/cloudflare%E6%B3%A8%E5%86%8C.jpg?raw=true)
+
+2.去Github上复制代码，[点击链接](https://github.com/V2RaySSR/Free-VLESS/blob/main/worker-vless.js)
+![](https://github.com/NachoNeko1/NachoNeko1.github.io/blob/master/img/Github%E9%93%BE%E6%8E%A524-7-27.jpg?raw=true)
+
+3.在works and pages里面新建一个项目，名称随便，然后部署。
+
+![ ](https://github.com/NachoNeko1/NachoNeko1.github.io/blob/master/img/cloudflare-works%20and%20pages-24-7-27.jpg?raw=true)
+![ ](https://github.com/NachoNeko1/NachoNeko1.github.io/blob/master/img/cloudflare-works%20and%20pages-%E5%88%9B%E5%BB%BA-24-7-27.jpg?raw=true)
+
+![ ](https://github.com/NachoNeko1/NachoNeko1.github.io/blob/master/img/cloudflare-works%20and%20pages-%E5%88%9B%E5%BB%BA-24-7-27-2.jpg?raw=true)
+
+4.部署完后点击编辑代码，将worker.js里面原有的代码全部删去，粘贴复制的代码。
+5.把UUID修改一下，可以在[这里](https://1024tools.com/uuid)生成一些，将一条UUID复制到代码里面替换，在代码第七行那里，把引号里面的进行替换，最后点击部署就行了。
+6.找VLESS链接，点击自定义域，里面有个网站，复制然后再加上/刚刚复制的UUID随后就得到了。
+![![](https://github.com/NachoNeko1/NachoNeko1.github.io/blob/master/img/vless.jpg?raw=true)
+7.复制两条线之间的链接粘贴到v2即可食用。
+
+## 方法二：解锁高级链接，也就是多种链接：clash meta，sing-box，base64
+
+1.还是打开works and pages   
+![!  [](https://github.com/NachoNeko1/NachoNeko1.github.io/blob/master/img/cloudflare-works%20and%20pages-24-7-27.jpg?raw=true)
+2.点击创建，然后选pages。
+
+![ ](https://github.com/NachoNeko1/NachoNeko1.github.io/blob/master/img/cloudflare-works%20and%20pages-pages.jpg?raw=true)
+
+3.下滑点击上传资产，上传[worker.zip](https://raw.githubusercontent.com/cmliu/edgetunnel/main/worker.zip)然后部署。
+4.点击设置-环境变量-编辑编辑，名称为UUID，内容填[生成的UUID](https://1024tools.com/uuid)，然后保存。
+5.在部署里面，点击创建部署，重新上传一下[worker.zip](https://raw.githubusercontent.com/cmliu/edgetunnel/main/worker.zip)就完成了。
+6.点击自定义域，里面有个网站，复制然后再加上/刚刚复制的UUID随后就得到了。
+
+![ ](https://github.com/NachoNeko1/NachoNeko1.github.io/blob/master/img/vless.jpg?raw=true)
+
+7.将其复制到v2或者其他应用即可使用。
