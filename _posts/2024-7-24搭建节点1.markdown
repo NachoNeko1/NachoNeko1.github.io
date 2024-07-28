@@ -33,7 +33,7 @@ tags:
 4.部署完后点击编辑代码，将worker.js里面原有的代码全部删去，粘贴复制的代码。
 5.把UUID修改一下，可以在[这里](https://1024tools.com/uuid)生成一些，将一条UUID复制到代码里面替换，在代码第七行那里，把引号里面的进行替换，最后点击部署就行了。
 6.找VLESS链接，点击自定义域，里面有个网站，复制然后再加上/刚刚复制的UUID随后就得到了。
-![![](https://github.com/NachoNeko1/NachoNeko1.github.io/blob/master/img/vless.jpg?raw=true)
+![](https://github.com/NachoNeko1/NachoNeko1.github.io/blob/master/img/vless.jpg?raw=true)
 7.复制两条线之间的链接粘贴到v2即可食用。
 
 ## 方法二：解锁高级链接，也就是多种链接：clash meta，sing-box，base64
