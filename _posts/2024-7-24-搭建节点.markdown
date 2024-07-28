@@ -13,8 +13,7 @@ tags:
 > 这篇文章转载自[v2rayss论坛](https://v2rayssr.com/worker-vless.html)没有加速就别点，一共有两种方法
 
 ## 方法一：普通的节点，仅支持V2rayNG的连接
-
-### 一：普通的节点，仅支持V2rayNG的连接
+一：普通的节点，仅支持V2rayNG的连接
 
 1.先去[cloudflare](https://www.cloudflare.com)上注册账号 
 
