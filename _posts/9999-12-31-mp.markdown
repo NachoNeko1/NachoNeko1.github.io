@@ -2,7 +2,7 @@
 layout:     post
 title:      "欢迎来到宿命·杨的博客网"
 subtitle:   " \"Hello World, Hello Blog\""
-date:       2024-07-24 19:30:00
+date:       9999-12-31 19:30:00
 author:     "Fate"
 header-img: "img/post-bg-2024-7-24.jpg"
 catalog: true
