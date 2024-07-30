@@ -46,7 +46,7 @@ tags:
 5.把UUID修改一下，可以在[这里](https://1024tools.com/uuid)生成一些，将一条UUID复制到代码里面替换，在代码第七行那里，把引号里面的进行替换，最后点击部署就行了。
 6.找VLESS链接，点击自定义域，里面有个网站，复制然后再加上/刚刚复制的UUID随后就得到了。
 
-![![](https://pic.fate-pic.us.kg/file/8b2dcfaa7876b40da22e0.jpg)
+![](https://pic.fate-pic.us.kg/file/8b2dcfaa7876b40da22e0.jpg)
 
 7.复制两条线之间的链接粘贴到v2即可食用。
 
